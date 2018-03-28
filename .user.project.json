@@ -1,0 +1,45 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 3149191,
+        "runnerId": "webapprunner",
+        "displayName": "index.html",
+        "lastRunTimeStamp": 1522257462837
+      }
+    },
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "SOUFER_GW_DEV",
+          "destinations": "SOUFER_GW_DEV"
+        }
+      ],
+      "_metadata": {
+        "id": 2909602,
+        "runnerId": "webapprunner",
+        "displayName": "index.htm - Frame",
+        "lastRunTimeStamp": 1522257313962
+      }
+    }
+  ]
+}

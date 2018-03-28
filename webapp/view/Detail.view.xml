@@ -1,0 +1,25 @@
+<mvc:View controllerName="soufer.mm.availability.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}"
+		busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" intro="{Id}" title="{Name}" numberUnit="{TypeName}">
+				<attributes>
+					<ObjectAttribute title="{i18n>plant}" text="{Plant}"/>
+					<ObjectAttribute title="{i18n>group}" text="{GroupName}"/>
+					<ObjectAttribute title="{i18n>type}" text="{TypeName}"/>
+				</attributes>
+			</ObjectHeader>
+			<f:SimpleForm editable="false" layout="ResponsiveGridLayout" title="Disponibilidade" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+				labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+				singleContainerFullSize="false" >
+				<f:content>
+					<Label text="Estoque disponível"/>
+					<Text text="{ToAvailability/Availability} {ToAvailability/Uom}"/>
+					<Label text="Estoque em venda"/>
+					<Text text="{ToAvailability/AvailabilitySo} {ToAvailability/Uom}"/>
+				</f:content>
+			</f:SimpleForm>
+		</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>

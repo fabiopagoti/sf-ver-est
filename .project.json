@@ -1,0 +1,212 @@
+{
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "SOUFER_GW_DEV",
+    "name": "ZMM_AVAIL"
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "buildRequired": true,
+    "sourceFolder": "webapp",
+    "targetFolder": "dist",
+    "excludedFolders": [],
+    "excludedFiles": [],
+    "availableFoldersComboBox": [
+      {
+        "text": "view"
+      },
+      {
+        "text": "controller"
+      },
+      {
+        "text": "fragment"
+      },
+      {
+        "text": "model"
+      },
+      {
+        "text": "i18n"
+      },
+      {
+        "text": "localService"
+      },
+      {
+        "text": "test"
+      },
+      {
+        "text": "test/unit"
+      },
+      {
+        "text": "test/unit/controller"
+      },
+      {
+        "text": "test/unit/model"
+      },
+      {
+        "text": "test/integration"
+      },
+      {
+        "text": "test/integration/pages"
+      }
+    ],
+    "availableFilesComboBox": [
+      {
+        "text": "view/App.view.xml"
+      },
+      {
+        "text": "view/DetailNoObjectsAvailable.view.xml"
+      },
+      {
+        "text": "view/Master.view.xml"
+      },
+      {
+        "text": "view/DetailObjectNotFound.view.xml"
+      },
+      {
+        "text": "view/NotFound.view.xml"
+      },
+      {
+        "text": "view/ViewSettingsDialog.fragment.xml"
+      },
+      {
+        "text": "view/Detail.view.xml"
+      },
+      {
+        "text": "controller/BaseController.js"
+      },
+      {
+        "text": "controller/Detail.controller.js"
+      },
+      {
+        "text": "controller/Master.controller.js"
+      },
+      {
+        "text": "controller/App.controller.js"
+      },
+      {
+        "text": "controller/ErrorHandler.js"
+      },
+      {
+        "text": "controller/ListSelector.js"
+      },
+      {
+        "text": "fragment/F1.fragment.xml"
+      },
+      {
+        "text": "model/models.js"
+      },
+      {
+        "text": "model/formatter.js"
+      },
+      {
+        "text": "i18n/i18n.properties"
+      },
+      {
+        "text": "localService/mockserver.js"
+      },
+      {
+        "text": "localService/metadata.xml"
+      },
+      {
+        "text": "test/unit/controller/App.controller.js"
+      },
+      {
+        "text": "test/unit/controller/ListSelector.js"
+      },
+      {
+        "text": "test/unit/unitTests.qunit.html"
+      },
+      {
+        "text": "test/unit/allTests.js"
+      },
+      {
+        "text": "test/unit/model/models.js"
+      },
+      {
+        "text": "test/unit/model/formatter.js"
+      },
+      {
+        "text": "test/flpSandbox.html"
+      },
+      {
+        "text": "test/flpSandboxMockServer.html"
+      },
+      {
+        "text": "test/integration/AllJourneys.js"
+      },
+      {
+        "text": "test/integration/MasterJourney.js"
+      },
+      {
+        "text": "test/integration/NotFoundJourney.js"
+      },
+      {
+        "text": "test/integration/FLPIntegrationJourney.js"
+      },
+      {
+        "text": "test/integration/opaTestsPhone.qunit.html"
+      },
+      {
+        "text": "test/integration/pages/App.js"
+      },
+      {
+        "text": "test/integration/pages/Common.js"
+      },
+      {
+        "text": "test/integration/pages/Master.js"
+      },
+      {
+        "text": "test/integration/pages/Browser.js"
+      },
+      {
+        "text": "test/integration/pages/Detail.js"
+      },
+      {
+        "text": "test/integration/pages/NotFound.js"
+      },
+      {
+        "text": "test/integration/NavigationJourney.js"
+      },
+      {
+        "text": "test/integration/BusyJourney.js"
+      },
+      {
+        "text": "test/integration/NavigationJourneyPhone.js"
+      },
+      {
+        "text": "test/integration/PhoneJourneys.js"
+      },
+      {
+        "text": "test/integration/opaTests.qunit.html"
+      },
+      {
+        "text": "test/integration/NotFoundJourneyPhone.js"
+      },
+      {
+        "text": "test/integration/BusyJourneyPhone.js"
+      },
+      {
+        "text": "test/testsuite.qunit.html"
+      },
+      {
+        "text": "test.html"
+      },
+      {
+        "text": "Component.js"
+      },
+      {
+        "text": "manifest.json"
+      }
+    ]
+  }
+}
